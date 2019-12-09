@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-qr-generator';
+  public myAngularxQrCode: string = null;
+
+  constructor() {
+    // assign a value
+    this.myAngularxQrCode = 'Your QR code data string';
+  }
 }
